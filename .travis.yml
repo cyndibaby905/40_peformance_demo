@@ -41,7 +41,7 @@ matrix:
       script:
         - flutter doctor && flutter -v build ios --no-codesign
 before_install:
-    - git clone -b 'v1.5.4-hotfix.2' --depth 1 https://github.com/flutter/flutter.git
+    - git clone -b 'v1.7.8+hotfix.4' --depth 1 https://github.com/flutter/flutter.git
     - export PATH="$PATH:`pwd`/flutter/bin"
 cache:
   directories:
